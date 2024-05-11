@@ -31,8 +31,8 @@ jobs:
             - name: cat package.json
               run: cat package.json
 
-            - name: install dependencies
-              run: npx storybook init
+            - name: add storybook
+              run: npx storybook init --skip-install
 
             - name: cat package.json
               run: cat package.json
