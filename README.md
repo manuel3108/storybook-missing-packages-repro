@@ -1,3 +1,1 @@
-Add readme
-a
-a
+setup: `npm init vite@latest . -- --template svelte`
