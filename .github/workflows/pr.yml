@@ -36,6 +36,3 @@ jobs:
 
             - name: cat package.json
               run: cat package.json
-
-            - name: Setup upterm session
-              uses: lhotari/action-upterm@v1
