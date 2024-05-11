@@ -29,7 +29,9 @@ jobs:
               run: npm i pnpm@latest -g
 
             - name: setup pnpm config
-              run: npm init vite@latest . -- --template svelte
+              run: npm init vite@latest ./temp -- --template svelte
+
+            - run: cd ./temp
 
             - name: cat package.json
               run: cat package.json
