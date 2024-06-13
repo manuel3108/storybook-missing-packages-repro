@@ -32,10 +32,10 @@ jobs:
               run: cat package.json
 
             - name: storybook info
-              run: npx storybook@next info
+              run: npx storybook@latest info
 
             - name: storybook init
-              run: npx storybook@next init --skip-install
+              run: npx storybook@latest init --skip-install
 
             - name: cat package.json
               run: cat package.json
